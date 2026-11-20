@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.ar" android:required="false" />
     <application
         android:allowBackup="false"
         android:fullBackupContent="false"
@@ -6,13 +8,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.SecureStreamer">
-        <activity
-            android:name=".GalleryActivity"
-            android:exported="false"
-            android:screenOrientation="unspecified" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+        <activity android:name=".ArPhotoPortalActivity" android:exported="false" android:screenOrientation="fullSensor" />
+        <activity android:name=".VirtualGalleryActivity" android:exported="false" android:screenOrientation="fullSensor" />
+        <activity android:name=".GalleryActivity" android:exported="false" android:screenOrientation="unspecified" />
+        <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -6,5 +6,7 @@
     <string name="open_qr">Open with gallery ID</string>
     <string name="configure_pin">Set or change local PIN</string>
     <string name="crypto_test">Run local crypto self-test</string>
-    <string name="stage_notice">Starter project only: cloud hosting, QR camera scanning, and media recovery are not connected yet.</string>
+    <string name="stage_notice">Starter project: cloud hosting and recovery are not connected. Explore the 3D gallery demo or ARCore portal preview.</string>
+    <string name="virtual_gallery">Explore 3D memory gallery</string>
+    <string name="ar_portal">Open AR photo portal</string>
 </resources>
