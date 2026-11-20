@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.SecureStreamer">
+        <activity android:name=".UiFlowActivity" android:exported="false" android:screenOrientation="unspecified" />
         <activity android:name=".ArPhotoPortalActivity" android:exported="false" android:screenOrientation="fullSensor" />
         <activity android:name=".VirtualGalleryActivity" android:exported="false" android:screenOrientation="fullSensor" />
         <activity android:name=".GalleryActivity" android:exported="false" android:screenOrientation="unspecified" />
