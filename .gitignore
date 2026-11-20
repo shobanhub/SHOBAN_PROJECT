@@ -1,0 +1,12 @@
+# Gradle and IDE
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+
+# Signing material and local secrets
+*.jks
+*.keystore
+keystore.properties
+.env

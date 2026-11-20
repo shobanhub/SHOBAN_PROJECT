@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Your memories, kept private</string>
+    <string name="welcome_body">Create a secure gallery or open one using its public gallery ID. Your PIN stays on this device.</string>
+</resources>

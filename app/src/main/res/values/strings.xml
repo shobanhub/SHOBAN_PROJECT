@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Secure Streamer</string>
+    <string name="app_subtitle">Private memories, shared securely</string>
+    <string name="host_gallery">Create a gallery</string>
+    <string name="open_qr">Open with gallery ID</string>
+    <string name="configure_pin">Set or change local PIN</string>
+    <string name="crypto_test">Run local crypto self-test</string>
+    <string name="stage_notice">Starter project only: cloud hosting, QR camera scanning, and media recovery are not connected yet.</string>
+</resources>
